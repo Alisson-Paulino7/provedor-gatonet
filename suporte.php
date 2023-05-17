@@ -117,15 +117,15 @@
 
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.3031299674503!2d-39.31377462584139!3d-7.206216792799318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a178ad71080c59%3A0x5b2a22386c2711fd!2sCentro%20Universit%C3%A1rio%20Para%C3%ADso%20-%20UniFAP!5e0!3m2!1spt-BR!2sbr!4v1683835516014!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" ></iframe>
 
-        <form action="">
+        <form action="validar_login.php" method="POST">
             <h3>PREENCHA SEUS DADOS</h3>
                 <div class="inputBox">
                 <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="EMAIL">
+                <input type="email" name="contato" placeholder="EMAIL ou TELEFONE">
             </div>
             <div class="inputBox">
                 <span class="fas fa-key"></span>
-                <input type="password" placeholder="SENHA">
+                <input type="password" name="senha" placeholder="SENHA">
             </div>
             <input type="submit" value="Entrar" class="btn">
             <a href="cadastro.php" class="btn">Clique Aqui Caso não tenha Cadastro</a>

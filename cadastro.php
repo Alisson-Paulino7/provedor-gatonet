@@ -1,3 +1,6 @@
+<?php
+include 'Conexao.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,45 +37,37 @@
 </header>
 
 
-
-
 <section class="contato" id="contato">
-
     <h1 class="heading"> <span>SOLICITE</span> CONTATO </h1>
-
     <div class="row">
-
-        
-        <form action="">
+        <form action="validar_cadastro.php" method="POST">
             <h3>PREENCHA SEUS DADOS</h3>
-                <div class="inputBox">
+            <div class="inputBox">
                 <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="EMAIL">
+                <input type="text" name="nome" placeholder="NOME">
             </div>
             <div class="inputBox">
                 <span class="fas fa-key"></span>
-                <input type="password" placeholder="SENHA">
+                <input type="password" name="senha" placeholder="SENHA">
             </div>
             <div class="inputBox">
                 <span class="fas fa-key"></span>
-                <input type="password" placeholder="CONFIRME SUA SENHA">
+                <input type="password" name="confirmacao_da_senha" placeholder="CONFIRME SUA SENHA">
             </div>
             <div class="inputBox">
-                <span class="fas fa-file"></span>
-                <input type="number" placeholder="CPF OU CNPJ" maxlength="14">
+                <span class="fas fa-key"></span>
+                <input type="number" name="cpf_cnpj" placeholder="CPF ou CNPJ">
             </div>
             <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="TELEFONE">
+                <span class="fas fa-key"></span>
+                <input type="text" name="contato" placeholder="EMAIL ou TELEFONE">
             </div>
-            <input type="submit" value="Entrar" class="btn">
+
+            <input type="submit" value="Criar cadastro" class="btn">
             <button><a href="suporte.php"class="btn">Retornar a Tela de Login</a> </a></button>
-
+        </form>
     </div>
-
 </section>
-
-
 
 
 
