@@ -139,48 +139,34 @@
 
 <section class="blogs" id="blogs">
 
-    <h1 class="heading"> Links <span>Úteis</span> </h1>
+<h1 class="heading"> Links <span>Úteis</span> </h1>
 
-    <div class="box-container">
+<div class="box-container">
 
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-1.jpeg" alt="">
-            </div>
-            <div class="content">
-                <a href="#" class="title">Suporte Técnico</a>
-                <span>by admin / 21st may, 2021</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
+    <div class="box">
+        <div class="image">
+            <img src="images/blog-1.jpeg" alt="">
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-2.jpeg" alt="">
-            </div>
-            <div class="content">
-                <a href="#" class="title">tasty and refreshing coffee</a>
-                <span>by admin / 21st may, 2021</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
+        <div class="content">
+            <a href="suporte.php" class="title">Suporte Técnico</a>
+            <span>Solicite aqui o Suporte</span>
+            <p>Solicite aqui o suporte ou reinicie o roteador para tentar sozinho!</p>
+            <button><a href="suporte.php" class="btn">Suporte</a> </a></button>
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-3.jpeg" alt="">
-            </div>
-            <div class="content">
-                <a href="#" class="title">tasty and refreshing coffee</a>
-                <span>by admin / 21st may, 2021</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-        </div>
-
     </div>
 
+    <div class="box">
+        <div class="image">
+            <img src="images/blog-2.jpeg" alt="">
+        </div>
+        <div class="content">
+            <a href="financeiro.php" class="title">Financeiro</a>
+            <span>Acesse suas faturas</span>
+            <p>Tenha o controle financeiro e não nos faça perder tempo cancelando seus beneficios!</p>
+            <button><a href="financeiro.php" class="btn">Financeiro</a> </a></button>
+        </div>
+    </div>
+</div>
 </section>
 
 
