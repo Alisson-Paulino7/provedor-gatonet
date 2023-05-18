@@ -55,17 +55,10 @@ include 'Conexao.php';
                 <input type="password" name="confirmacao_da_senha" placeholder="CONFIRME SUA SENHA">
             </div>
             <div class="inputBox">
-                <span class="fas fa-key"></span>
                 <input type="number" name="cpf_cnpj" placeholder="CPF ou CNPJ">
             </div>
             <div class="inputBox">
-                <span class="fas fa-key"></span>
                 <input type="text" name="contato" placeholder="EMAIL ou TELEFONE">
-            </div>
-
-            <div class="inputBox">
-                <span class="fas fa-key"></span>
-                <input type="text" name="plano" placeholder="Digite seu plano">
             </div>
 
             <input type="submit" value="Criar cadastro" class="btn">

@@ -5,7 +5,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $senha = $_POST["senha"];
     $cpf_cnpj = $_POST["cpf_cnpj"];
     $contato = $_POST["contato"];
-    $plano = $_POST["plano"];
     
 
     // Conexão com o banco de dados
@@ -22,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Executa a consulta SQL para inserir os dados na tabela
-    $sql = "INSERT INTO cadastro (nome, senha, cpf_cnpj, contato, plano) VALUES ('$nome', '$senha', '$cpf_cnpj', '$contato','$plano')";
+    $sql = "INSERT INTO cadastro (nome, senha, cpf_cnpj, contato) VALUES ('$nome', '$senha', '$cpf_cnpj', '$contato')";
     // Executa consultas adicionais para inserir os outros campos na tabela
 
     if ($conn->query($sql) === TRUE) {
