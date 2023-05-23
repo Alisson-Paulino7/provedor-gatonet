@@ -11,5 +11,3 @@ class Conexao {
         return self::$instance;
     }
 }
-
-?>
